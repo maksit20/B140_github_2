@@ -1,0 +1,15 @@
+--Local'de repo oluşturma ve Git_Github kullanımı;
+1-Çalışacağımız klazörü seçip yada yeni bir klasör oluşturup, klasörün yolunu gösteren bölüme cmd yazıp
+enter yapıp açmış olduğumuz klasörün yolunda terminalimizi açmış oluruz
+2-Ve bu dizinde açılan terminale GİT INIT küçük harflerler yazarız ve initilaze empty git repository yazısını
+gördüğümüzde bu çalışma alanımızda boş bir repository oluşturmuş oluruz.
+3-Git init yaptıktan sonraki çalışma alanımızın ismine Working space denir.
+4-git add . komutuyla working space'de ki kodlarımızı staging area dediğimiz bekleme alanına taşırız
+5-git commit -m "version adı" kodunu yazarak stage'deki kodlarımızdan version oluşturmuş oluruz.
+6-working space ve stage'de kodlarımızın durumunu görmek için git status komutunu kullanırız.
+7-commit stora(yani versiyon oluşturduğumuz yer) daki versiyonlarımızı görmek için de git log --oneline komutunu kullanırız
+8-Oluşturmuş olduğumuz versiyonu github'a gönderebilmek için git push <github repository adresi> yada devamlı kullanıcağımız bir repoysa 1 kerelik --> git remote add origin <github repo adresi> sonra --> git push -u origin master komutuyla github'a gönderebiliriz
+9-Github'a gönderdiğimiz kodlarıda başka bir çalışma ortamına çekebilmek için git pull <github repo adresi> yazarak çekebiliriz
+10-Localimizde ilişkendirdiğimiz adresi git remote -v komutuyla görebiliriz.
+11-Github tarafında yaptığımız bir değişlik olursa adresi bir kerelik tanımladığımız için sadece git pull yapmamız yeterlidir.
+Aynı şekilde adresi tanımladığımız için sadece git push komutu ilede kodlarımızı göndere...
